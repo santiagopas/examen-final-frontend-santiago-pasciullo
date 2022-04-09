@@ -1,4 +1,4 @@
-# examen-final-frontend-santiago-pasciullo
+# Examen-Final-Frontend-Santiago-Pasciullo
 ## El reto
 
 Su desafío es crear esta página de destino y hacer que se parezca lo más posible al diseño.
@@ -42,3 +42,8 @@ No dude en utilizar cualquier flujo de trabajo con el que se sienta cómodo. A c
 ## Envío de su solución
 
 Envíe su solución en el google forms adjunto en PG, por favor adjuntar un archivo ZIP.
+
+
+![imagenMuestra](https://user-images.githubusercontent.com/58112459/162579494-3cae564a-f132-4202-b170-03ea3f2f3cc1.jpg)
+![mobile-design](https://user-images.githubusercontent.com/58112459/162579515-ef6eabc7-0032-4af1-93fc-e76f929bee84.jpg)
+
