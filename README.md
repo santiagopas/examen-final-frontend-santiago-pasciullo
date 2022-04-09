@@ -47,3 +47,43 @@ Envíe su solución en el google forms adjunto en PG, por favor adjuntar un arch
 ![imagenMuestra](https://user-images.githubusercontent.com/58112459/162579494-3cae564a-f132-4202-b170-03ea3f2f3cc1.jpg)
 ![mobile-design](https://user-images.githubusercontent.com/58112459/162579515-ef6eabc7-0032-4af1-93fc-e76f929bee84.jpg)
 
+# Guía de estilo de front-end
+
+## Diseño
+
+Los diseños se crearon con los siguientes anchos:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+
+## Colores
+
+### Primario
+
+Rojo brillante: rgb (242, 95, 58)
+Azul oscuro: rgb (35, 44, 81)
+
+### Neutro
+
+Azul grisáceo oscuro: rgb (143, 148, 167)
+Azul muy oscuro: rgb (29, 30, 37)
+Rojo muy pálido: rgb (255, 239, 234)
+Variante gris claro: rgb (249, 249, 249)
+
+## Tipografia
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Be Vietnam](https://fonts.google.com/specimen/Be+Vietnam)
+- Weights: 400, 500, 700
+
+## Icons
+
+Para los íconos sociales, puede usar los íconos provistos o una biblioteca de íconos de fuentes. Ej:
+
+- [Font Awesome](https://fontawesome.com)

@@ -1,4 +1,20 @@
-:root {}
+:root {
+  --navColor: #242E52;
+  --titleColor: #232C50;
+  --subtitleColor: #232851;
+  --textColor: #000000;
+  --buttonBg: #F3603B;
+  --chartBg: #F3603C;
+  --featuresTitleColor: #323851;
+  --featuresSubColor: #B3B2B7;
+  --testimonialsTitleColor: #242E53;
+  --testimonialsSubColor: #B9B9C1;
+  --bannerBottomColor: #F3613C;
+  --footerBg: #1E1E26;
+  --copyrightColor: #8C8C94;
+  --iconColor: #FFFFFF;
+  --buttonShadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+}
 
 /* RESET DE LOS ESTILOS CSS Y PREPARADO DE LA ZONA DE TRABAJO */
 *,
