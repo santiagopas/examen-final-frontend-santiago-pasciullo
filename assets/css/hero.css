@@ -1,7 +1,10 @@
+@import '../img/chart.svg';
+
 .hero {
   padding-block-start: 16px;
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
 .hero-description {
@@ -18,15 +21,17 @@
 
 .hero-description p {
   font: 500 1.035rem/1.626rem var(--fontBase);
-  width: 23vw;
-  margin-block: 28px;
+  /* width: 29vw; ESTE VA PARA PANTALLAS GRANDES */
+  width: 23.5vw;
+  margin-block: 2em 2em;
 }
 
 .hero-description a {
-  width: fit-content;
+  width: 8.7vw;
+  height: 6.17vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-
-.chart{
-  width: 61%;
-}
-

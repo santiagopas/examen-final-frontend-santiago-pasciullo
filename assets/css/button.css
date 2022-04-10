@@ -1,11 +1,22 @@
 .buttonGetStarted {
-  padding: 12.5px 30.5px;
+  padding: 0.9% 2.06%;
+  width: auto;
+  height: auto;
   background-color: var(--buttonBg);
   box-shadow: var(--buttonShadow);
   border-radius: 50px;
   font: var(--buttonFont);
-  color: var(--iconColor)
+  color: var(--iconColor);
 }
-.buttonGetStarted:hover{
+
+.btn-description {
+  background-color: var(--chartBg);
+  color: var(--iconColor);
+  font: var(--btnDesc);
+  border-radius: 30px;
+  padding:10px 25px;
+}
+
+.buttonGetStarted:hover {
   background-color: var(--hoverButton);
 }

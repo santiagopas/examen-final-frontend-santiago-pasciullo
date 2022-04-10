@@ -12,3 +12,10 @@
 .menu ul a:hover{
   color: var(--hoverNav);
 }
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: var (--navColor);
+}
