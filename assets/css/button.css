@@ -1,0 +1,11 @@
+.buttonGetStarted {
+  padding: 12.5px 30.5px;
+  background-color: var(--buttonBg);
+  box-shadow: var(--buttonShadow);
+  border-radius: 50px;
+  font: var(--buttonFont);
+  color: var(--iconColor)
+}
+.buttonGetStarted:hover{
+  background-color: var(--hoverButton);
+}

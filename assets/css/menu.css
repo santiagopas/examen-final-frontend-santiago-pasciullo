@@ -1,0 +1,14 @@
+.menu ul{
+  display: flex;
+  list-style: none;
+  gap: 28px;
+}
+
+.menu ul a {
+ color: var (--navColor);
+ font-weight: 500;
+}
+
+.menu ul a:hover{
+  color: var(--hoverNav);
+}

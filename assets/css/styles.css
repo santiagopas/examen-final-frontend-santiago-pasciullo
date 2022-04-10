@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import 'wrapper.css';
+@import 'button.css';
+@import "header.css";
+@import "menu.css";
+@import "hero.css";
+
 :root {
-  --fontBase: 'Be Vietnam Pro', sans-serif;
+  --fontBase: 'Be Vietnam', sans-serif;
   --navColor: #242E52;
   --titleColor: #232C50;
   --subtitleColor: #232851;
@@ -16,12 +24,17 @@
   --footerBg: #1E1E26;
   --copyrightColor: #8C8C94;
   --iconColor: #FFFFFF;
-  --buttonShadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
-  --headline1: bold 3.625rem/4.154rem var(--fontBase);
-  --headline2: bold 2.25rem/2.579rem var(--fontBase);
-  --headline3: bold 1rem/1.461rem var(--fontBase);
-  --headline4: bold 2.451rem/3.838rem var(--fontBase);
-  --headline5: bold 2.5rem/2.99rem var(--fontBase);
+  --hoverNav: #9999a1;
+  --hoverButton: #f98f76;
+  --buttonShadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  --buttonShadow-2: 0px 4px 8px rgba(242, 97, 59, 0.5);
+  --buttonShadow-3: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  --headline1: 700 3.625rem/4.154rem var(--fontBase);
+  --headline2: 700 2.25rem/2.579rem var(--fontBase);
+  --headline3: 700 1rem/1.461rem var(--fontBase);
+  --headline4: 700 2.451rem/3.838rem var(--fontBase);
+  --headline5: 700 2.5rem/2.99rem var(--fontBase);
+  --buttonsFont: 500 0.824rem/1.204rem var(--fontBase);
 }
 
 *,
@@ -42,6 +55,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: var(--fontBase)
 }
 
 img,
@@ -63,4 +77,14 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+li {
+  list-style-type: none;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
 }
