@@ -44,7 +44,8 @@ No dude en utilizar cualquier flujo de trabajo con el que se sienta cómodo. A c
 Envíe su solución en el google forms adjunto en PG, por favor adjuntar un archivo ZIP.
 
 
-![imagenMuestra](https://user-images.githubusercontent.com/58112459/162579494-3cae564a-f132-4202-b170-03ea3f2f3cc1.jpg)
+![active-states](https://user-images.githubusercontent.com/58112459/162598270-de3cbbe3-9704-4789-bed1-a5b28dd078ba.jpg)
+
 ![mobile-design](https://user-images.githubusercontent.com/58112459/162579515-ef6eabc7-0032-4af1-93fc-e76f929bee84.jpg)
 
 # Guía de estilo de front-end
