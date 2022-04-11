@@ -8,6 +8,7 @@
 @import "product-description.css";
 @import "testimonials.css";
 @import "footer.css";
+@import "scrollbar.css";
 
 :root {
   --fontBase: 'Be Vietnam', sans-serif;
