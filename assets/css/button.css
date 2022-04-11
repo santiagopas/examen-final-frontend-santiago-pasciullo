@@ -27,6 +27,20 @@
 .buttonGetStarted2:hover {
   background-color: var(--hoverButton);
 }
+.buttonGetStarted3 {
+  padding: 0.9% 2.06%;
+  width: auto;
+  height: auto;
+  background-color: var(--iconColor);
+  box-shadow: var(--buttonShadow-3);
+  border-radius: 50px;
+  font: var(--buttonFont);
+  color: var(--bannerBottomColor);
+}
+
+.buttonGetStarted3:hover {
+  color: var(--hoverButton);
+}
 
 .btn-description {
   background-color: var(--chartBg);

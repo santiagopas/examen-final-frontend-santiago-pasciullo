@@ -1,0 +1,52 @@
+.bannerBottom {
+  background-color: var(--bannerBottomColor);
+  margin-block-start: 11.85%;
+  height: 31.4vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bannerBottom h2 {
+  font: var(--headline5);
+  color: var(--iconColor);
+  width: 36vw;
+}
+
+.footeerNav {
+  background-color: var(--footerBg);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 34.6vh;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: inherit;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.left ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.left ul li a i {
+  color: var(--iconColor);
+}
+.center ul li a{
+  color: var(--iconColor);
+}
+.right ul li a{
+  color: var(--iconColor);
+}
