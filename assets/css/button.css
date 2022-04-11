@@ -1,4 +1,4 @@
-.buttonGetStarted {
+.buttonGetStarted1 {
   padding: 0.9% 2.06%;
   width: auto;
   height: auto;
@@ -9,14 +9,29 @@
   color: var(--iconColor);
 }
 
+.buttonGetStarted1:hover {
+  background-color: var(--hoverButton);
+}
+
+.buttonGetStarted2 {
+  padding: 0.9% 2.06%;
+  width: auto;
+  height: auto;
+  background-color: var(--buttonBg);
+  box-shadow: var(--buttonShadow-2);
+  border-radius: 50px;
+  font: var(--buttonFont);
+  color: var(--iconColor);
+}
+
+.buttonGetStarted2:hover {
+  background-color: var(--hoverButton);
+}
+
 .btn-description {
   background-color: var(--chartBg);
   color: var(--iconColor);
   font: var(--btnDesc);
   border-radius: 30px;
-  padding:10px 25px;
-}
-
-.buttonGetStarted:hover {
-  background-color: var(--hoverButton);
+  padding: 10px 25px;
 }

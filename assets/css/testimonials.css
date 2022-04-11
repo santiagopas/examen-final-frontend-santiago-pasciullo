@@ -1,5 +1,9 @@
 .testimonials {
   margin-block-start: 132.5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .testimonials h2 {
@@ -8,22 +12,45 @@
   color: var(--testimonialsTitleColor);
 }
 
+.testimonial-cards {
+  display: flex;
+  flex-direction: row;
+  margin-block-start: 6.58%;
+}
+
 .testimonials h4 {
   color: var(--testimonialNameColor);
   font: var(--testimonialName);
+  margin-block-start: 21px;
 }
 
 .testimonials p {
   color: var(--testimonialsSubColor);
   line-height: 1.566rem;
+  margin-block-start: 21px;
 }
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 2px
+}
+
 
 .card {
   background-color: var(--cardBg);
-  width: 445px;
   text-align: center;
 }
 
 .card img {
   display: revert;
+}
+
+.btn-testimonial {
+  text-align: center;
+  margin-block-start: 45px;
 }
