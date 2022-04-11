@@ -29,6 +29,7 @@
   --iconColor: #FFFFFF;
   --hoverNav: #9999a1;
   --hoverButton: #f98f76;
+  --placeHolder: #A0A0A0;
   --btnDesc: 700 1rem/1.511rem var(--fontBase);
   --buttonShadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
   --buttonShadow-2: 0px 4px 8px rgba(242, 97, 59, 0.5);
@@ -40,6 +41,7 @@
   --headline5: 700 2.5rem/2.99rem var(--fontBase);
   --testimonialName: 700 1.004rem/1.573rem var(--fontBase);
   --buttonsFont: 500 0.824rem/1.204rem var(--fontBase);
+  --footerNav: 400 1rem/0.625rem var(--fontBase);
 }
 
 *,
