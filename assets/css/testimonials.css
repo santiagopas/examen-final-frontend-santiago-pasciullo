@@ -21,13 +21,13 @@
 .testimonials h4 {
   color: var(--testimonialNameColor);
   font: var(--testimonialName);
-  margin-block-start: 21px;
+  padding-block-start: 6.1vh;
 }
 
 .testimonials p {
   color: var(--testimonialsSubColor);
   line-height: 1.566rem;
-  margin-block-start: 21px;
+  padding: 0 1rem 1.5rem;
 }
 
 .cardContainer {
@@ -40,15 +40,18 @@
   margin: 0 2px
 }
 
+.cardContainer img {
+  z-index: 2;
+  position: relative;
+  top: 35px;
+}
 
 .card {
   background-color: var(--cardBg);
   text-align: center;
 }
 
-.card img {
-  display: revert;
-}
+
 
 .btn-testimonial {
   text-align: center;

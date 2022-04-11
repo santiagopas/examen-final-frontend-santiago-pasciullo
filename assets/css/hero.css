@@ -35,3 +35,12 @@
   justify-content: center;
   align-items: center;
 }
+
+.chartContainer {
+  text-align: center;
+}
+
+.chartContainer img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
