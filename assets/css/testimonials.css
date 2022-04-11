@@ -1,0 +1,29 @@
+.testimonials {
+  margin-block-start: 132.5px;
+}
+
+.testimonials h2 {
+  font: var(--headline4);
+  text-align: center;
+  color: var(--testimonialsTitleColor);
+}
+
+.testimonials h4 {
+  color: var(--testimonialNameColor);
+  font: var(--testimonialName);
+}
+
+.testimonials p {
+  color: var(--testimonialsSubColor);
+  line-height: 1.566rem;
+}
+
+.card {
+  background-color: var(--cardBg);
+  width: 445px;
+  text-align: center;
+}
+
+.card img {
+  display: revert;
+}

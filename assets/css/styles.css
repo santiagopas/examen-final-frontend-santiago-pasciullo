@@ -6,6 +6,7 @@
 @import "menu.css";
 @import "hero.css";
 @import "product-description.css";
+@import "testimonials.css";
 
 :root {
   --fontBase: 'Be Vietnam', sans-serif;
@@ -18,7 +19,9 @@
   --featuresTitleColor: #323851;
   --featuresSubColor: #B3B2B7;
   --testimonialsTitleColor: #242E53;
+  --testimonialNameColor: #3F4868;
   --testimonialsSubColor: #B9B9C1;
+  --cardBg: #FAFAFA;
   --bannerBottomColor: #F3613C;
   --footerBg: #1E1E26;
   --copyrightColor: #8C8C94;
@@ -34,6 +37,7 @@
   --headline3: 700 1rem/1.461rem var(--fontBase);
   --headline4: 700 2.451rem/3.838rem var(--fontBase);
   --headline5: 700 2.5rem/2.99rem var(--fontBase);
+  --testimonialName: 700 1.004rem/1.573rem var(--fontBase);
   --buttonsFont: 500 0.824rem/1.204rem var(--fontBase);
 }
 
@@ -88,4 +92,3 @@ a:link,
 a:visited {
   text-decoration: none;
 }
-

@@ -19,7 +19,8 @@
 .container .subParagraph {
   font: 500 1rem/1.511rem var(--fontBase);
   color: var(--textColor);
-  width: 97.7%;
+  width: 18vw;
+  min-width: 337px;
   margin-block-start: 38px;
 }
 
@@ -33,6 +34,7 @@
   color: var(--featuresSubColor);
   width: 437px;
   margin-block-start: 18px;
+  margin-inline-start: 93px;
 }
 
 .description {
@@ -54,3 +56,4 @@
   flex-wrap: wrap;
   align-items: center;
 }
+
