@@ -9,6 +9,7 @@
 @import "testimonials.css";
 @import "footer.css";
 @import "scrollbar.css";
+@import "mobileMenu.css";
 
 :root {
   --fontBase: 'Be Vietnam', sans-serif;

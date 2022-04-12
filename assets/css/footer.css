@@ -110,12 +110,22 @@ button {
   flex-direction: row;
   justify-content: flex-end;
   margin-block-start: 15%;
-}
-
-.noneDesk {
   display: none;
 }
 
+.noneDesk {
+  color: var(--copyrightColor);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-block-start: 15%;
+}
+
+@media only screen and (max-width: 1125px) {
+  footer{
+    height: 50vh;
+  }
+}
 @media only screen and (max-width: 912px) {
   .bannerBottom {
     height: 50vh;
@@ -172,5 +182,10 @@ button {
 
   .copyR {
     justify-content: center;
+    display: flex;
+    margin-block-start: 0;
+  }
+  .noneDesk{
+    display: none;
   }
 }
