@@ -103,7 +103,6 @@ svg .svg {
     align-items: center;
     align-content: center;
     justify-content: center;
-    ;
   }
 
   .hero-description {
@@ -121,9 +120,5 @@ svg .svg {
     text-align: center;
     width: auto;
     color: var(--featuresSubColor);
-  }
-
-  .chartContainer {
-    width: auto;
   }
 }

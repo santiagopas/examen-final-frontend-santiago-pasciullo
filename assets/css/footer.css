@@ -109,6 +109,11 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-block-start: 15%;
+}
+
+.noneDesk {
+  display: none;
 }
 
 @media only screen and (max-width: 912px) {
