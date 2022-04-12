@@ -1,6 +1,13 @@
-.wrapper{
+.wrapper {
   max-inline-size: 1158px;
   padding-inline-end: 16px;
   padding-inline-start: 16px;
   margin: auto;
+}
+
+
+@media only screen and (max-width: 912px) {
+  .wrapper {
+
+  }
 }

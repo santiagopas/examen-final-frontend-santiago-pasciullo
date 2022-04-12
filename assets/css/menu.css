@@ -19,3 +19,12 @@ a:visited {
   text-decoration: none;
   color: var (--navColor);
 }
+
+
+
+@media only screen and (max-width: 912px) {
+  .menu ul{
+    display: none;
+
+  }
+}
