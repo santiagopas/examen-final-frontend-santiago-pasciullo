@@ -121,9 +121,13 @@ button {
   margin-block-start: 15%;
 }
 
-@media only screen and (max-width: 1125px) {
+
+@media only screen and (max-width: 1150px) {
   footer{
     height: 50vh;
+  }
+  .footeerNav{
+    height: 40.6vh;
   }
 }
 @media only screen and (max-width: 912px) {
@@ -184,6 +188,7 @@ button {
     justify-content: center;
     display: flex;
     margin-block-start: 0;
+    background-color: var(--footerBg);
   }
   .noneDesk{
     display: none;

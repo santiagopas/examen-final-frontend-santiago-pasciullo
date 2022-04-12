@@ -108,4 +108,9 @@
   .container .subParagraph {
     color: var(--featuresSubColor);
   }
+
+  .container h4 {
+    font: 700 15px/1.461rem var(--fontBase);
+    margin-left: 6px;
+  }
 }
