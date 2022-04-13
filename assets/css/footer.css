@@ -80,13 +80,7 @@ footer {
 }
 
 ul.ul2 {
-  justify-content: space-evenly;
   padding: 0 0 11%;
-}
-
-form {
-  position: relative;
-  bottom: 20%;
 }
 
 input {
@@ -105,11 +99,6 @@ button {
 }
 
 .copyR {
-  color: var(--copyrightColor);
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-block-start: 15%;
   display: none;
 }
 
@@ -126,7 +115,6 @@ button {
   footer {
     height: 50vh;
   }
-
   .footeerNav {
     height: 40.6vh;
   }
@@ -142,13 +130,11 @@ button {
     align-content: center;
     padding: 10%;
   }
-
   .bannerBottom h2 {
     width: auto;
     text-align: center;
     font-size: 2rem;
   }
-
   .footeerNav {
     display: flex;
     height: 80vh;
@@ -158,11 +144,6 @@ button {
     justify-content: space-around;
     align-items: center;
   }
-
-  form {
-    bottom: 0;
-  }
-
   .left {
     flex: 0;
     flex-direction: column-reverse;
@@ -171,11 +152,9 @@ button {
     flex-wrap: wrap;
     justify-content: center;
   }
-
   .left ul {
     margin-block-end: 15%;
   }
-
   .center {
     display: flex;
     flex-direction: row;
@@ -183,20 +162,16 @@ button {
     flex-wrap: wrap;
     justify-content: space-around;
   }
-
   .iconsSocial ul li {
     margin: 0 10px;
     font-size: 1.5rem;
   }
-
   .copyR {
     justify-content: center;
     display: flex;
-    margin-block-start: 0;
-    background-color: var(--footerBg);
-    padding: 0 0 7% 0;
+    color: var(--copyrightColor);
+  
   }
-
   .noneDesk {
     display: none;
   }
