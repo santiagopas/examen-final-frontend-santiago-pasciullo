@@ -5,8 +5,9 @@
 }
 
 .menu ul a {
-  color: var (--navColor);
+  color: var(--navColor);
   font-weight: 500;
+  line-height:22.89px;
 }
 
 .menu ul a:hover {
@@ -17,7 +18,7 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: var (--navColor);
+  color: var(--navColor);
 }
 
 
