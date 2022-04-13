@@ -6,8 +6,9 @@
 }
 
 
-@media only screen and (max-width: 912px) {
+@media only screen and (max-width: 360px) {
   .wrapper {
-
+    padding: 12px;
+    overflow: hidden;
   }
 }

@@ -3,7 +3,7 @@
 }
 
 .menu-toggler {
-  width: 70px;
+  width: 50px;
   height: 80px;
   background: transparent;
   z-index: 100;
@@ -12,13 +12,14 @@
   align-items: center;
   flex-direction: column;
   cursor: pointer;
+  margin-inline-start: 40%;
 }
 
 .menu-toggler-line {
   width: 60%;
-  height: 3px;
+  height: 5px;
   background: var(--navColor);
-  margin: 0 0 10px 0px;
+  margin: 0 0 4px 0px;
   position: relative;
   transition: all .40s ease-out;
 }
@@ -68,13 +69,10 @@
   width: 100%;
   background: #000;
   opacity: 0.5;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   transform: translateX(-100%);
-
   transition: all .40s ease-out;
 }
 

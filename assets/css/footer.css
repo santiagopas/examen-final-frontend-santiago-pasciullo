@@ -123,25 +123,30 @@ button {
 
 
 @media only screen and (max-width: 1150px) {
-  footer{
+  footer {
     height: 50vh;
   }
-  .footeerNav{
+
+  .footeerNav {
     height: 40.6vh;
   }
+  .center{
+    width: 30%;
+  }
 }
+
 @media only screen and (max-width: 912px) {
   .bannerBottom {
     height: 50vh;
     flex-direction: column;
     align-content: center;
+    padding: 10%;
   }
 
   .bannerBottom h2 {
-    font: var(--headline5);
-    color: var(--iconColor);
     width: auto;
     text-align: center;
+    font-size: 2rem;
   }
 
   .footeerNav {
@@ -174,7 +179,7 @@ button {
   .center {
     display: flex;
     flex-direction: row;
-    width: 66%;
+    width: 84%;
     flex-wrap: wrap;
     justify-content: space-around;
   }
@@ -189,8 +194,10 @@ button {
     display: flex;
     margin-block-start: 0;
     background-color: var(--footerBg);
+    padding: 0 0 7% 0;
   }
-  .noneDesk{
+
+  .noneDesk {
     display: none;
   }
 }

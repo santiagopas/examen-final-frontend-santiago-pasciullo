@@ -13,5 +13,6 @@
 @media only screen and (max-width: 912px) {
   .header-content {
     justify-content: space-around;
+    block-size: 10vh;
   }
 }

@@ -81,6 +81,7 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+    width: 98vw;
   }
 
   .description {
@@ -92,6 +93,7 @@
     width: auto;
     margin-block-start: 5px;
     margin-inline-start: 0;
+    font-size: 14px;
   }
 
   .number-container {
@@ -103,14 +105,28 @@
   .container h2 {
     font-size: 2rem;
     text-align: center;
+    font-weight: 900;
   }
 
   .container .subParagraph {
     color: var(--featuresSubColor);
+    min-width: 300px;
+    text-align: center;
+    font-size: 0.95rem;
   }
 
   .container h4 {
     font: 700 15px/1.461rem var(--fontBase);
     margin-left: 6px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .descParr {
+    font-size: 14px;
+  }
+
+  .product-description {
+    flex-wrap: nowrap;
   }
 }

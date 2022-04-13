@@ -36,15 +36,6 @@
   margin-block: 2em 2em;
 }
 
-.hero-description a {
-  width: 134px;
-  height: 44px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
 
 .chartContainer {
   width: 100%;
@@ -64,12 +55,6 @@
 svg .svg {
   margin: 0 auto;
 }
-
-/* 
-.chartContainer img {
-  max-inline-size: 100%;
-  block-size: auto;
-} */
 
 .svg path:nth-child(1) {
   animation:
@@ -103,6 +88,7 @@ svg .svg {
     align-items: center;
     align-content: center;
     justify-content: center;
+    padding-block-start: 0;
   }
 
   .hero-description {
