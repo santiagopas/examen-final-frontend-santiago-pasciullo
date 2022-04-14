@@ -18,7 +18,6 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: var(--navColor);
 }
 
 
@@ -26,6 +25,5 @@ a:visited {
 @media only screen and (max-width: 912px) {
   .menu ul {
     display: none;
-
   }
 }
