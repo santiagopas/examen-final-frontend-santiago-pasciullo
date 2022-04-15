@@ -115,10 +115,12 @@ button {
   footer {
     height: 50vh;
   }
+
   .footeerNav {
     height: 40.6vh;
   }
-  .center{
+
+  .center {
     width: 30%;
   }
 }
@@ -130,11 +132,13 @@ button {
     align-content: center;
     padding: 10%;
   }
+
   .bannerBottom h2 {
     width: auto;
     text-align: center;
     font-size: 2rem;
   }
+
   .footeerNav {
     display: flex;
     height: 80vh;
@@ -144,6 +148,7 @@ button {
     justify-content: space-around;
     align-items: center;
   }
+
   .left {
     flex: 0;
     flex-direction: column-reverse;
@@ -152,9 +157,15 @@ button {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .left ul {
     margin-block-end: 15%;
   }
+
+  .left img {
+    align-self: center;
+  }
+
   .center {
     display: flex;
     flex-direction: row;
@@ -162,16 +173,19 @@ button {
     flex-wrap: wrap;
     justify-content: space-around;
   }
+
   .iconsSocial ul li {
     margin: 0 10px;
     font-size: 1.5rem;
   }
+
   .copyR {
     justify-content: center;
     display: flex;
     color: var(--copyrightColor);
-  
+
   }
+
   .noneDesk {
     display: none;
   }
